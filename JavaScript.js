@@ -1,8 +1,10 @@
 let TesterName="Prathamesh";
-let TesterExp=0;
+let TesterExp=4.5;
+let AutomationExp=0;
 
 console.log(TesterName);
 console.log(TesterExp);
+console.log(AutomationExp);
 console.log("My Automation Journey Starts Today");
 
 let Browser="Chromium";
