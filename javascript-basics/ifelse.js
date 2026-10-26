@@ -61,3 +61,32 @@ if (!IsLoggedIn) {
 }else{
     console.log("Login Successfull")
 }
+
+//EX AND
+
+let uname="Admin";
+let Password1="Admin1";
+if(uname==="Admin" && Password1==="Amin1"){
+    console.log("U can Login")
+}else{
+   console.log("U can not Login")
+}
+
+//EX OR
+
+let uname1="Admin1";
+let uname2="Admin2"
+if(uname1==="Admin"|| uname2==="Adminnn"){
+    console.log("Valid uname")
+}else{
+    console.log("Invalid uname")
+}
+
+//! NOT
+
+let ATester=false;
+if (!ATester) {
+    console.log("Manual Tester")
+}else{
+    console.log("Automation Tester")
+}
